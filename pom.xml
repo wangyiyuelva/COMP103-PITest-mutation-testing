@@ -533,14 +533,17 @@
         <groupId>org.pitest</groupId>
         <artifactId>pitest-maven</artifactId>
         <version>1.7.2</version>
-        <!-- <configuration>
-          <targetClasses>
+          <configuration>
+            <timestampedReports>
+              true
+            </timestampedReports>
+          <!-- <targetClasses>
             <param>org.joda.time.tz.*</param>
           </targetClasses>
           <targetTests>
             <param>org.joda.time.tz.*</param>
-          </targetTests>
-        </configuration> -->
+          </targetTests> -->
+        </configuration>
       </plugin>
     </plugins>
     <!-- Manage plugin versions -->
