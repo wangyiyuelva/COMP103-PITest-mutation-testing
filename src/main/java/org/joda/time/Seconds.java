@@ -465,7 +465,7 @@ public final class Seconds extends BaseSingleFieldPeriod {
      */
     public boolean isLessThan(Seconds other) {
         if (other == null) {
-            return getValue() > 0;
+            return getValue() <= 0;
         }
         return getValue() < other.getValue();
     }
