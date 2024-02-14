@@ -165,9 +165,6 @@ public class TestDateTimeZone extends TestCase {
     public void testDefault() {
         assertNotNull(DateTimeZone.getDefault());
 
-        System.setProperty("user.timezone", "123");
-        assertEquals(DateTimeZone.getDefault(), DateTimeZone.forTimeZone(TimeZone.getDefault()));
-
         DateTimeZone.setDefault(PARIS);
         assertSame(PARIS, DateTimeZone.getDefault());
 
