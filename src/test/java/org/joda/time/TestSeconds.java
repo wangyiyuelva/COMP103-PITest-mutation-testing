@@ -177,7 +177,7 @@ public class TestSeconds extends TestCase {
         assertEquals(false, Seconds.THREE.isLessThan(Seconds.THREE));
         assertEquals(true, Seconds.TWO.isLessThan(Seconds.THREE));
         assertEquals(false, Seconds.ONE.isLessThan(null));
-        // assertEquals(false, Seconds.ZERO.isLessThan(null));
+        assertEquals(false, Seconds.ZERO.isLessThan(null));
         assertEquals(true, Seconds.seconds(-1).isLessThan(null));
     }
 
