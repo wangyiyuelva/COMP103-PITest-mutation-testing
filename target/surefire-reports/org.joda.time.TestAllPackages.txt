@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.joda.time.TestAllPackages
 -------------------------------------------------------------------------------
-Tests run: 4207, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.748 sec <<< FAILURE! - in org.joda.time.TestAllPackages
-testIsLessThan(org.joda.time.TestSeconds)  Time elapsed: 0.006 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: expected:<false> but was:<true>
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.failNotEquals(Assert.java:329)
-	at junit.framework.Assert.assertEquals(Assert.java:78)
-	at junit.framework.Assert.assertEquals(Assert.java:174)
-	at junit.framework.Assert.assertEquals(Assert.java:181)
-	at junit.framework.TestCase.assertEquals(TestCase.java:324)
-	at org.joda.time.TestSeconds.testIsLessThan(TestSeconds.java:180)
-
+Tests run: 4207, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.485 sec - in org.joda.time.TestAllPackages
